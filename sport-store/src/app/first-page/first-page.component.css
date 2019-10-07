@@ -1,0 +1,27 @@
+.buttons{
+  height: 50px;
+  width: 150px;
+  background: lightgray;
+  border: 1px solid black;
+}
+.p{
+  margin-top: 20px;
+}
+p{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+  width: 30%;
+}
+.ball{
+  border: 1px solid green;
+
+}
+.car{
+  border: 1px solid blue;
+
+}
+.phone{
+  border: 1px solid red;
+}

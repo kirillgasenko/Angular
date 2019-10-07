@@ -1,0 +1,28 @@
+{
+    "product": [
+        {
+            "id": 1,
+            "name": "LG",
+            "category": "phone",
+            "price": 300
+        },
+        {
+            "id": 2,
+            "name": "Sony",
+            "category": "phone",
+            "price": 300
+        },
+        {
+            "id": 3,
+            "name": "Nike",
+            "category": "ball",
+            "price": 300
+        },
+        {
+            "id": 4,
+            "name": "Fiat",
+            "category": "car",
+            "price": 300
+        }
+    ]
+}

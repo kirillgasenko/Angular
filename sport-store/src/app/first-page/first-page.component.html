@@ -1,0 +1,25 @@
+
+<!--<p class="p" *ngFor="let product of list">{{product.name}}<br>-->
+<!--{{product.category}}-->
+<!--<br>-->
+<!--{{product.price}}</p>-->
+<div class="p" *ngFor="let product of list" >
+  <p class="phone" *ngIf="product.category === 'phone'">{{product.name}}<br>
+    {{product.category}}
+    <br>
+    {{product.price}}
+    <button (click)="console.log(product.id)">Buy</button>
+  </p>
+  <p class="ball" *ngIf="product.category === 'ball'">{{product.name}}<br>
+    {{product.category}}
+    <br>
+    {{product.price}}
+    <button>Buy</button>
+  </p>
+  <p class="car" *ngIf="product.category === 'car'">{{product.name}}<br>
+    {{product.category}}
+    <br>
+    {{product.price}}
+    <button>Buy</button>
+  </p>
+</div>
